@@ -4,35 +4,50 @@ body {
     margin: 20px;
    }
    h1 {
-    color: #333;
+    color: rgb(255, 255, 255);
    }
    button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: hsl(281, 100%, 78%);
     color: white;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
    }
    button:hover {
-    background-color: #0056b3;
+    background-color: hsl(281, 100%, 78%);
    }
    #mensagem {
-    color: #007BFF;
+    color: hsl(281, 100%, 78%);
     font-weight: bold;
    }
    #textoAlterado {
-    color: #555;
+    color: rgb(255, 255, 255);
     font-style: italic;
    }
    a {
-    color: #007BFF;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
+    font-weight: bold;
    }
    a:hover {
     text-decoration: underline;
    }
   .container {
     text-align: center;
+   }
+   label {
+    color:rgb(255, 255, 255)
+   }
+   p {
+    color:rgb(255, 255, 255)
+   }
+   body {
+    font-family: Arial, sans-serif;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
    }
