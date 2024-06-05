@@ -33,3 +33,6 @@ body {
    a:hover {
     text-decoration: underline;
    }
+  .container {
+    text-align: center;
+   }
